@@ -1,88 +1,140 @@
-<!-- es.html -->
-<!DOC
-TYPE html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="ca">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ana EpitiÈ Asesora Inmobiliaria</title>
+  <title>Ana Epiti√© Assessora Immobili√†ria</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body { margin: 0; font-family: 'Montserrat', sans-serif; background-color: #f9f9f9; color: #333; }
-    header { background-color: #6f42c1; color: white; padding: 2rem 1rem; text-align: center; }
-    nav { background-color: #eee; display: flex; justify-content: center; gap: 2rem; padding: 1rem; flex-wrap: wrap; }
-    nav a { color: #6f42c1; text-decoration: none; font-weight: bold; }
-    .hero { padding: 3rem 1rem; text-align: center; background: linear-gradient(to right, #e0c3fc, #8ec5fc); }
-    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
-    .hero p { font-size: 1.2rem; }
-    .section { padding: 2rem 1rem; max-width: 1000px; margin: 0 auto; }
-    footer { background-color: #6f42c1; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
-    form input, form textarea { display: block; width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px; }
-    form button { background-color: #6f42c1; color: white; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer; }
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #6f42c1;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #6f42c1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 3rem 1rem;
+      text-align: center;
+      background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #6f42c1;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #6f42c1;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Ana EpitiÈ</h1>
-    <p>Asesora Inmobiliaria & Perito Judicial UrbanÌstico en Manresa y el Bages</p>
+    <h1>Ana Epiti√©</h1>
+    <p>Assessora Immobili√†ria & Perit Judicial Urban√≠stic a Manresa i el Bages</p>
   </header>
   <nav>
-    <a href="#servicios">Servicios</a>
-    <a href="#peritaje">Peritaje</a>
-    <a href="#propiedades">Propiedades</a>
-    <a href="#contacto">Contacto</a>
-    <a href="/index.html">Catal·</a>
+    <a href="#serveis">Serveis</a>
+    <a href="#peritatge">Peritatge</a>
+    <a href="#propietats">Propietats</a>
+    <a href="#contacte">Contacte</a>
+    <a href="/es.html">Castell√†</a>
     <a href="/en.html">English</a>
   </nav>
   <section class="hero">
-    <h1>Soluciones Inmobiliarias con Valor TÈcnico</h1>
-    <p>Compra, venta y peritaje urbanÌstico con confianza y profesionalidad</p>
+    <h1>Solucions Immobili√†ries amb Valor T√®cnic</h1>
+    <p>Compra, venda i peritatge urban√≠stic amb confian√ßa i professionalitat</p>
   </section>
-  <section id="servicios" class="section">
-    <h2>Servicios Inmobiliarios</h2>
+  <section id="serveis" class="section">
+    <h2>Serveis Immobiliaris</h2>
     <ul>
-      <li>Compra y venta de propiedades</li>
-      <li>CaptaciÛn de propietarios</li>
-      <li>Publicidad org·nica en redes sociales</li>
-      <li>Asesoramiento personalizado</li>
+      <li>Compra i venda de propietats</li>
+      <li>Captaci√≥ de venedors</li>
+      <li>Publicitat org√†nica a xarxes socials</li>
+      <li>Assessorament personalitzat</li>
     </ul>
   </section>
-  <section id="peritaje" class="section">
-    <h2>Peritaje UrbanÌstico</h2>
-    <p>Como perito judicial urbanÌstico, te ayudo con:</p>
+  <section id="peritatge" class="section">
+    <h2>Peritatge Urban√≠stic</h2>
+    <p>Com a perit judicial urban√≠stic, t‚Äôajudo amb:</p>
     <ul>
-      <li>ResoluciÛn de conflictos catastrales y registrales</li>
-      <li>LegalizaciÛn de obras y divisiones horizontales</li>
-      <li>Conflictos de linderos y servidumbres</li>
-      <li>Normativa urbanÌstica local</li>
+      <li>Resoluci√≥ de conflictes cadastrals i registrals</li>
+      <li>Legalitzaci√≥ d'obres i divisions horitzontals</li>
+      <li>Conflictes de l√≠mits i servituds</li>
+      <li>Normativa urban√≠stica local</li>
     </ul>
   </section>
-  <section id="propiedades" class="section">
-    <h2>Propiedades en Venta</h2>
-    <p>Descubre nuestras propiedades disponibles en Manresa y el Bages:</p>
+  <section id="propietats" class="section">
+    <h2>Propietats en Venda</h2>
+    <p>Descobreix les nostres propietats disponibles a Manresa i el Bages:</p>
     <ul>
-      <li>Piso en el centro histÛrico - 3 hab. / 2 baÒos / balcÛn</li>
-      <li>Casa con jardÌn en Sant FruitÛs - 4 hab. / 3 baÒos / garaje</li>
-      <li>Solar para promociÛn en Navarcles</li>
+      <li>Pis al centre hist√≤ric - 3 hab. / 2 banys / balc√≥</li>
+      <li>Casa amb jard√≠ a Sant Fruit√≥s - 4 hab. / 3 banys / garatge</li>
+      <li>Solar per a promoci√≥ a Navarcles</li>
     </ul>
   </section>
-  <section id="contacto" class="section">
-    <h2>Contacto</h2>
-    <form action="https://hook.eu2.make.com/429grixdtlpeehe8qrxwuypx7f1vto6a" method="POST">
-      <input type="text" name="nombre" placeholder="Tu nombre" required>
-      <input type="email" name="email" placeholder="Tu email" required>
-      <textarea name="mensaje" placeholder="Tu mensaje" rows="4" required></textarea>
-      <button type="submit">Enviar</button>
+  <section id="contacte" class="section">
+    <h2>Contacte</h2>
+    <form action="https://hook.integromat.com/abc123xyz456" method="POST">
+      <input type="text" name="nom" placeholder="El teu nom" required>
+      <input type="email" name="email" placeholder="El teu email" required>
+      <textarea name="missatge" placeholder="El teu missatge" rows="4" required></textarea>
+      <button type="submit">Envia</button>
     </form>
-    <p>TambiÈn puedes contactar directamente:</p>
+    <p>Tamb√© pots contactar directament:</p>
     <p><strong>Email:</strong> anaepitieinmobiliaria@gmail.com</p>
     <p><strong>Instagram:</strong> @anaepitieassessoraimmobiliaria</p>
-    <p><strong>WhatsApp:</strong> <a href="https://wa.me/34634701486" target="_blank">Enviar mensaje por WhatsApp</a></p>
-    <p><strong>ManyChat:</strong> <a href="https://manychat.com/l/anaepitie" target="_blank">Iniciar chat automatizado</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/34634701486" target="_blank">Envia missatge per WhatsApp</a></p>
+    <p><strong>ManyChat:</strong> <a href="https://manychat.com/l/anaepitie" target="_blank">Comen√ßa xat automatitzat</a></p>
   </section>
   <footer>
-    &copy; 2025 Ana EpitiÈ ∑ Todos los derechos reservados
+    &copy; 2025 Ana Epiti√© ¬∑ Tots els drets reservats
   </footer>
 </body>
 </html>
