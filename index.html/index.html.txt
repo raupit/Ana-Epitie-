@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ana Epitié Assessora Immobiliària</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana Epitié Asesora Inmobiliaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     body {
       margin: 0;
@@ -56,7 +56,8 @@
       padding: 1rem;
       margin-top: 2rem;
     }
-    form input, form textarea {
+    form input,
+    form textarea {
       display: block;
       width: 100%;
       padding: 0.5rem;
@@ -77,64 +78,81 @@
 <body>
   <header>
     <h1>Ana Epitié</h1>
-    <p>Assessora Immobiliària & Perit Judicial Urbanístic a Manresa i el Bages</p>
+    <p>Asesora Inmobiliaria & Perito Judicial Urbanístico en Manresa y el Bages</p>
   </header>
+
   <nav>
-    <a href="#serveis">Serveis</a>
-    <a href="#peritatge">Peritatge</a>
-    <a href="#propietats">Propietats</a>
-    <a href="#contacte">Contacte</a>
-    <a href="/es.html">Castellà</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#peritaje">Peritaje</a>
+    <a href="#propiedades">Propiedades</a>
+    <a href="#contacto">Contacto</a>
+    <a href="/es.html">Español</a>
     <a href="/en.html">English</a>
   </nav>
+
   <section class="hero">
-    <h1>Solucions Immobiliàries amb Valor Tècnic</h1>
-    <p>Compra, venda i peritatge urbanístic amb confiança i professionalitat</p>
+    <h1>Soluciones Inmobiliarias con Valor Técnico</h1>
+    <p>Compra, venta y peritaje urbanístico con confianza y profesionalidad</p>
   </section>
-  <section id="serveis" class="section">
-    <h2>Serveis Immobiliaris</h2>
+
+  <section id="servicios" class="section">
+    <h2>Servicios Inmobiliarios</h2>
     <ul>
-      <li>Compra i venda de propietats</li>
-      <li>Captació de venedors</li>
-      <li>Publicitat orgànica a xarxes socials</li>
-      <li>Assessorament personalitzat</li>
+      <li>Compra y venta de propiedades</li>
+      <li>Captación de propietarios</li>
+      <li>Publicidad orgánica en redes sociales</li>
+      <li>Asesoramiento personalizado</li>
     </ul>
   </section>
-  <section id="peritatge" class="section">
-    <h2>Peritatge Urbanístic</h2>
-    <p>Com a perit judicial urbanístic, t’ajudo amb:</p>
+
+  <section id="peritaje" class="section">
+    <h2>Peritaje Urbanístico</h2>
+    <p>Como perito judicial urbanístico, te ayudo con:</p>
     <ul>
-      <li>Resolució de conflictes cadastrals i registrals</li>
-      <li>Legalització d'obres i divisions horitzontals</li>
-      <li>Conflictes de límits i servituds</li>
+      <li>Resolución de conflictos catastrales y registrales</li>
+      <li>Legalización de obras y divisiones horizontales</li>
+      <li>Conflictos de linderos y servidumbres</li>
       <li>Normativa urbanística local</li>
     </ul>
   </section>
-  <section id="propietats" class="section">
-    <h2>Propietats en Venda</h2>
-    <p>Descobreix les nostres propietats disponibles a Manresa i el Bages:</p>
+
+  <section id="propiedades" class="section">
+    <h2>Propiedades en Venta</h2>
+    <p>Descubre nuestras propiedades disponibles en Manresa, el Bages y alrededores:</p>
     <ul>
-      <li>Pis al centre històric - 3 hab. / 2 banys / balcó</li>
-      <li>Casa amb jardí a Sant Fruitós - 4 hab. / 3 banys / garatge</li>
-      <li>Solar per a promoció a Navarcles</li>
+      <li><strong>Piso señorial en Las Ramblas (Barcelona)</strong><br>
+        280 m² · 5 habitaciones · 2 baños · 1.480.000 €<br>
+        Techos altos, molduras originales, terrazas, aire acondicionado, ascensor. Ref. 8933
+      </li>
+      <li><strong>Masía Catalana con licencia turística (Tordera)</strong><br>
+        1.160 m² · 20 habitaciones · 16 baños · jardín 40.000 m² · 2.300.000 €<br>
+        7 apartamentos independents · vistas al mar · en rentabilidad. Ref. 4497
+      </li>
+      <li><strong>Xalet industrial en Roda de Ter amb gran potencial inversor</strong><br>
+        1.261 m² · 6 habitaciones · 4 baños · parcela 2.034 m² · 890.000 €<br>
+        Possibilitat de construir fins a 75-80 pisos · 35 garatges · espais per a geriàtric, hotel, esport, etc. Ref. 1447
+      </li>
     </ul>
   </section>
-  <section id="contacte" class="section">
-    <h2>Contacte</h2>
-    <form action="https://hook.integromat.com/abc123xyz456" method="POST">
-      <input type="text" name="nom" placeholder="El teu nom" required>
-      <input type="email" name="email" placeholder="El teu email" required>
-      <textarea name="missatge" placeholder="El teu missatge" rows="4" required></textarea>
-      <button type="submit">Envia</button>
+
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <form action="https://hook.eu2.make.com/429grixdtlpeehe8qrxwuypx7f1vto6a" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu email" required />
+      <textarea name="mensaje" placeholder="Tu mensaje" rows="4" required></textarea>
+      <button type="submit">Enviar</button>
     </form>
-    <p>També pots contactar directament:</p>
+    <p>También puedes contactar directamente:</p>
     <p><strong>Email:</strong> anaepitieinmobiliaria@gmail.com</p>
     <p><strong>Instagram:</strong> @anaepitieassessoraimmobiliaria</p>
-    <p><strong>WhatsApp:</strong> <a href="https://wa.me/34634701486" target="_blank">Envia missatge per WhatsApp</a></p>
-    <p><strong>ManyChat:</strong> <a href="https://manychat.com/l/anaepitie" target="_blank">Comença xat automatitzat</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/34634701486" target="_blank">Enviar mensaje por WhatsApp</a></p>
+    <p><strong>ManyChat:</strong> <a href="https://manychat.com/l/anaepitie" target="_blank">Iniciar chat automatizado</a></p>
   </section>
+
   <footer>
-    &copy; 2025 Ana Epitié · Tots els drets reservats
+    &copy; 2025 Ana Epitié · Todos los derechos reservados
   </footer>
 </body>
 </html>
+
