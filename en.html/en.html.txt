@@ -1,0 +1,88 @@
+
+<!-- en.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Epitié Real Estate Consultant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Montserrat', sans-serif; background-color: #f9f9f9; color: #333; }
+    header { background-color: #6f42c1; color: white; padding: 2rem 1rem; text-align: center; }
+    nav { background-color: #eee; display: flex; justify-content: center; gap: 2rem; padding: 1rem; flex-wrap: wrap; }
+    nav a { color: #6f42c1; text-decoration: none; font-weight: bold; }
+    .hero { padding: 3rem 1rem; text-align: center; background: linear-gradient(to right, #e0c3fc, #8ec5fc); }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; }
+    .section { padding: 2rem 1rem; max-width: 1000px; margin: 0 auto; }
+    footer { background-color: #6f42c1; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    form input, form textarea { display: block; width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+    form button { background-color: #6f42c1; color: white; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ana Epitié</h1>
+    <p>Real Estate Consultant & Urban Planning Expert in Manresa and the Bages region</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#expertise">Urban Expertise</a>
+    <a href="#properties">Properties</a>
+    <a href="#contact">Contact</a>
+    <a href="/index.html">Catalan</a>
+    <a href="/es.html">Spanish</a>
+  </nav>
+  <section class="hero">
+    <h1>Real Estate Solutions with Technical Insight</h1>
+    <p>Buy, sell and urban planning consultancy with confidence and professionalism</p>
+  </section>
+  <section id="services" class="section">
+    <h2>Real Estate Services</h2>
+    <ul>
+      <li>Property sales and acquisitions</li>
+      <li>Owner lead generation</li>
+      <li>Organic social media marketing</li>
+      <li>Tailored advisory service</li>
+    </ul>
+  </section>
+  <section id="expertise" class="section">
+    <h2>Urban Planning Expertise</h2>
+    <p>As an urban planning judicial expert, I assist with:</p>
+    <ul>
+      <li>Resolving cadastral and registry discrepancies</li>
+      <li>Legalization of constructions and horizontal divisions</li>
+      <li>Boundary and easement disputes</li>
+      <li>Local urban regulations</li>
+    </ul>
+  </section>
+  <section id="properties" class="section">
+    <h2>Properties for Sale</h2>
+    <p>Discover available properties in Manresa and the Bages region:</p>
+    <ul>
+      <li>Flat in the historic center - 3 beds / 2 baths / balcony</li>
+      <li>House with garden in Sant Fruitós - 4 beds / 3 baths / garage</li>
+      <li>Plot for development in Navarcles</li>
+    </ul>
+  </section>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form action="https://hook.eu2.make.com/429grixdtlpeehe8qrxwuypx7f1vto6a" method="POST">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>You can also contact directly:</p>
+    <p><strong>Email:</strong> anaepitieinmobiliaria@gmail.com</p>
+    <p><strong>Instagram:</strong> @anaepitieassessoraimmobiliaria</p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/34634701486" target="_blank">Send WhatsApp message</a></p>
+    <p><strong>ManyChat:</strong> <a href="https://manychat.com/l/anaepitie" target="_blank">Start automated chat</a></p>
+  </section>
+  <footer>
+    &copy; 2025 Ana Epitié · All rights reserved
+  </footer>
+</body>
+</html>

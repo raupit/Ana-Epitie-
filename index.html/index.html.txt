@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Epitié Assessora Immobiliària</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #6f42c1;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #6f42c1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 3rem 1rem;
+      text-align: center;
+      background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #6f42c1;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #6f42c1;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ana Epitié</h1>
+    <p>Assessora Immobiliària & Perit Judicial Urbanístic a Manresa i el Bages</p>
+  </header>
+  <nav>
+    <a href="#serveis">Serveis</a>
+    <a href="#peritatge">Peritatge</a>
+    <a href="#propietats">Propietats</a>
+    <a href="#contacte">Contacte</a>
+    <a href="/es.html">Castellà</a>
+    <a href="/en.html">English</a>
+  </nav>
+  <section class="hero">
+    <h1>Solucions Immobiliàries amb Valor Tècnic</h1>
+    <p>Compra, venda i peritatge urbanístic amb confiança i professionalitat</p>
+  </section>
+  <section id="serveis" class="section">
+    <h2>Serveis Immobiliaris</h2>
+    <ul>
+      <li>Compra i venda de propietats</li>
+      <li>Captació de venedors</li>
+      <li>Publicitat orgànica a xarxes socials</li>
+      <li>Assessorament personalitzat</li>
+    </ul>
+  </section>
+  <section id="peritatge" class="section">
+    <h2>Peritatge Urbanístic</h2>
+    <p>Com a perit judicial urbanístic, t’ajudo amb:</p>
+    <ul>
+      <li>Resolució de conflictes cadastrals i registrals</li>
+      <li>Legalització d'obres i divisions horitzontals</li>
+      <li>Conflictes de límits i servituds</li>
+      <li>Normativa urbanística local</li>
+    </ul>
+  </section>
+  <section id="propietats" class="section">
+    <h2>Propietats en Venda</h2>
+    <p>Descobreix les nostres propietats disponibles a Manresa i el Bages:</p>
+    <ul>
+      <li>Pis al centre històric - 3 hab. / 2 banys / balcó</li>
+      <li>Casa amb jardí a Sant Fruitós - 4 hab. / 3 banys / garatge</li>
+      <li>Solar per a promoció a Navarcles</li>
+    </ul>
+  </section>
+  <section id="contacte" class="section">
+    <h2>Contacte</h2>
+    <form action="https://hook.integromat.com/abc123xyz456" method="POST">
+      <input type="text" name="nom" placeholder="El teu nom" required>
+      <input type="email" name="email" placeholder="El teu email" required>
+      <textarea name="missatge" placeholder="El teu missatge" rows="4" required></textarea>
+      <button type="submit">Envia</button>
+    </form>
+    <p>També pots contactar directament:</p>
+    <p><strong>Email:</strong> anaepitieinmobiliaria@gmail.com</p>
+    <p><strong>Instagram:</strong> @anaepitieassessoraimmobiliaria</p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/34634701486" target="_blank">Envia missatge per WhatsApp</a></p>
+    <p><strong>ManyChat:</strong> <a href="https://manychat.com/l/anaepitie" target="_blank">Comença xat automatitzat</a></p>
+  </section>
+  <footer>
+    &copy; 2025 Ana Epitié · Tots els drets reservats
+  </footer>
+</body>
+</html>
