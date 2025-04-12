@@ -1,0 +1,15 @@
+<!-- en.html -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <form action="https://hook.eu2.make.com/429grixdtlpeehe8qrxwuypx7f1vto6a" method="POST">
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="email" placeholder="Your email" required>
+    <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p>You can also contact directly:</p>
+  <p><strong>Email:</strong> anaepitieinmobiliaria@gmail.com</p>
+  <p><strong>Instagram:</strong> @anaepitieassessoraimmobiliaria</p>
+  <p><strong>WhatsApp:</strong> <a href="https://wa.me/34634701486" target="_blank">Send WhatsApp message</a></p>
+  <p><strong>ManyChat:</strong> <a href="https://app.manychat.com/flowPlayerPage?share_hash=582013_eb0b6b38d34f136d8ab3eadaf920713384ec90e0" target="_blank">Start automated chat</a></p>
+</section>
