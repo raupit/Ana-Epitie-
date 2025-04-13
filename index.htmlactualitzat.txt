@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana Epitié Asesora Inmobiliaria</title>
+</head>
+<body>
+  <header>
+    <h1>Ana Epitié</h1>
+    <p>Assessora Inmobiliària a Manresa i el Bages</p>
+  </header>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#peritaje">Peritaje</a>
+    <a href="#propiedades">Propiedades</a>
+    <a href="#contacto">Contacto</a>
+    <a href="blog.html">Blog</a>
+    <a href="/es.html">Español</a>
+    <a href="/en.html">English</a>
+  </nav>
+
+  <section id="servicios"><h2>Servicios</h2><p>...</p></section>
+  <section id="peritaje"><h2>Peritaje</h2><p>...</p></section>
+  <section id="propiedades"><h2>Propiedades</h2><p>...</p></section>
+  <section id="contacto"><h2>Contacto</h2><p>...</p></section>
+</body>
+</html>
